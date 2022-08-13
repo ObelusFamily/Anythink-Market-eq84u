@@ -55,7 +55,7 @@ router.get("/", auth.optional, function(req, res, next) {
 
 
   if (typeof req.query.title !== "undefined") {
-    query.tagList = { $in: [req.query.title]}
+    query.titleList = { $in: [req.query.title]}
   }
 
   Promise.all([
