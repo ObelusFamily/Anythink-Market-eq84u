@@ -17,6 +17,7 @@ const Banner = () => {
     <i class="fas fa-search"></i>
   </button>
 </div> */}
+<input type="text" />
           <span> the cool stuff.</span>
         </div>
       </div>
