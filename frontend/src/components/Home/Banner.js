@@ -9,14 +9,14 @@ const Banner = () => {
           <div class="input-group">
         <div>
           <span id="get-part">A Place to get </span>
-  {/* <div id="search-autocomplete" class="form-outline">
+  <div id="search-autocomplete" class="form-outline">
     <input type="search" id="form1" class="form-control" />
     <label class="form-label" for="form1">Search</label>
   </div>
   <button type="button" class="btn btn-primary">
     <i class="fas fa-search"></i>
   </button>
-</div> */}
+</div>
 <input type="text" />
           <span> the cool stuff.</span>
         </div>
